@@ -1,0 +1,13 @@
+package com.a.bean;
+
+import java.util.Comparator;
+public class Comparable5 {
+	public Comparator<News> comparator = new Comparator<News>() {
+		@Override
+		public int compare(News n1, News n2) 
+		{
+			return (n1.getPbperson().compareTo(n2.getPbperson()));
+		}
+	};
+	
+}

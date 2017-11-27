@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.a.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>userListServlet</servlet-name>
+    <servlet-class>com.a.servlet.userListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userListServlet</servlet-name>
+    <url-pattern>/oa/userListServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>newsTypeListServlet</servlet-name>
+    <servlet-class>com.a.servlet.newsTypeListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newsTypeListServlet</servlet-name>
+    <url-pattern>/oa/newsTypeListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>newsTypeListServlet1</servlet-name>
+    <servlet-class>com.a.servlet.newsTypeListServletdel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newsTypeListServlet1</servlet-name>
+    <url-pattern>/oa/newsTypeListServletdel</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>newsListServlet</servlet-name>
+    <servlet-class>com.a.servlet.newsListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newsListServlet</servlet-name>
+    <url-pattern>/oa/newsListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>newsListServlet1</servlet-name>
+    <servlet-class>com.a.servlet.newsListServletdel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newsListServlet1</servlet-name>
+    <url-pattern>/oa/newsListServletdel</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>ser4</servlet-name>
+    <servlet-class>com.a.servlet.reviewNewsListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser4</servlet-name>
+    <url-pattern>/oa/reviewNewsListServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ser44</servlet-name>
+    <servlet-class>com.a.servlet.reviewNewsListServletdel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser44</servlet-name>
+    <url-pattern>/oa/reviewNewsListServletdel</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>ser5</servlet-name>
+    <servlet-class>com.a.servlet.releaseNewsListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser5</servlet-name>
+    <url-pattern>/oa/releaseNewsListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ser55</servlet-name>
+    <servlet-class>com.a.servlet.releaseNewsListServletdel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser55</servlet-name>
+    <url-pattern>/oa/releaseNewsListServletdel</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>ser6</servlet-name>
+    <servlet-class>com.a.servlet.menuListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser6</servlet-name>
+    <url-pattern>/oa/menuListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updatePassword</servlet-name>
+    <servlet-class>com.a.servlet.updatePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchById</servlet-name>
+    <servlet-class>com.a.servlet.SearchById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoModServlet</servlet-name>
+    <servlet-class>com.a.servlet.DoModServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoDelServlet</servlet-name>
+    <servlet-class>com.a.servlet.DoDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoAddServlet</servlet-name>
+    <servlet-class>com.a.servlet.DoAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatePassword</servlet-name>
+    <url-pattern>/userUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchById</servlet-name>
+    <url-pattern>/oa/SearchById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoModServlet</servlet-name>
+    <url-pattern>/oa/DoModServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDelServlet</servlet-name>
+    <url-pattern>/oa/DoDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoAddServlet</servlet-name>
+    <url-pattern>/oa/DoAddServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>updateUserdetail</servlet-name>
+    <servlet-class>com.a.servlet.updateDetailuser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateUserdetail</servlet-name>
+    <url-pattern>/oa/updateDetail</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.a.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelUserServlet</servlet-name>
+    <servlet-class>com.a.servlet.DelUserServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/oa/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelUserServlet</servlet-name>
+    <url-pattern>/oa/DelUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoCheckServlet</servlet-name>
+    <servlet-class>com.a.servlet.DoCheckServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DoCheckServlet</servlet-name>
+    <url-pattern>/oa/DoCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ReviewSearchById</servlet-name>
+    <servlet-class>com.a.servlet.ReviewSearchById</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>ReviewSearchById</servlet-name>
+    <url-pattern>/oa/ReviewSearchById</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <servlet-name>AddNewsTypeServlet</servlet-name>
+    <servlet-class>com.a.servlet.AddNewsTypeServlet</servlet-class>
+  </servlet> 
+  
+  <servlet-mapping>
+    <servlet-name>AddNewsTypeServlet</servlet-name>
+    <url-pattern>/oa/AddNewsTypeServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelTypeServlet</servlet-name>
+    <servlet-class>com.a.servlet.DelTypeServlet</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>DelTypeServlet</servlet-name>
+    <url-pattern>/oa/DelTypeServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentExportController</servlet-name>
+    <servlet-class>com.a.servlet.StudentExportController</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>StudentExportController</servlet-name>
+    <url-pattern>/oa/StudentExportController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+  
+</web-app>
